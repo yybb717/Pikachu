@@ -168,6 +168,19 @@ const string = `
 .face.right {
   transform: translateX(200px);
 }
+@media (max-width: 500px) {
+  .face {
+    width: 60px;
+    height: 60px;
+    margin-left: -30px;
+  }
+  .face.left {
+    transform: translateX(-150px);
+  }
+  .face.right {
+    transform: translateX(150px);
+  }
+}
 /* 结束啦！我的皮卡丘好看嘛 */
 `;
 export default string;
